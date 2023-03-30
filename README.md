@@ -1,6 +1,6 @@
 # Emotion-Based Music Player
 
-A web-based music player which detects the user's mood and recommends a set of songs, while changing its background theme accordingly. Created for TOHacks 2021, May 8-9. Made using HTML/CSS/Javascript for the frontend and Django/Python for the backend. The backend integrates both the Haar Cascade machine learning model and a CNN classifier through OpenCV. The classifier was trained using Colaboratory and Tensorflow. Essentially, the Haar Cascade algorithm utilizes the user's webcam to locate the user's face, which is then passed onto the classifier to detect what emotion the person is displaying. The classifier is trained on 4 emotions: Angry, Happy, Calm, and Sad. Depending on what emotion it detects, it will change the song selection and background of the music player accordingly.
+A web-based music player which detects the user's mood and recommends a set of songs, while changing its background theme accordingly.Made using HTML/CSS/Javascript for the frontend and Django/Python for the backend. The backend integrates both the Haar Cascade machine learning model and a CNN classifier through OpenCV. The classifier was trained using Colaboratory and Tensorflow. Essentially, the Haar Cascade algorithm utilizes the user's webcam to locate the user's face, which is then passed onto the classifier to detect what emotion the person is displaying. The classifier is trained on 4 emotions: Angry, Happy, Calm, and Sad. Depending on what emotion it detects, it will change the song selection and background of the music player accordingly.
 
 ## Getting Started
 
@@ -27,9 +27,9 @@ psycopg2-binary==2.8.6
 whitenoise==5.2.0
 ```
 
-### Demonstration
 
-Web app is already deployed on Heroku: https://emotion-music-player.herokuapp.com/
+
+
 
 ## Built With
 
@@ -49,15 +49,15 @@ Final Accuracy = 58.33%, Validation Accuracy = 54.99%
 
 <img src="https://github.com/Chubbyman2/emotion-music-player/blob/main/media/model_training_results.JPG">
 
-## Authors
 
-Big thanks to the organizers at TOHacks and everyone on Team AlphaHax.
 
-* Charles Yuan
-* Dulhan Naidappuwa Waduge
-* Golden Wang
-* Ilan Benjamin
 
-## License
 
-This project is licensed under the MIT License - see the <a href="https://github.com/Chubbyman2/emotion-music-player/blob/main/LICENSE">LICENSE</a> file for details.
+
+
+
+
+
+
+
+
